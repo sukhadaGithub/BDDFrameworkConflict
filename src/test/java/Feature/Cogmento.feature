@@ -25,8 +25,8 @@ Feature: Test Cogmento CRM Application
       | ContactInfo |         2 |
     
 
-  Scenario: validate home page functionality
+  Scenario: validate home  functionality
     When user is on home page validate home page title as "Cogmento CRM"
     And user validate home page url
-    And user validate home logo1
+    And user validate home logo
 
