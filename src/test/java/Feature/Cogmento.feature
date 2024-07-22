@@ -28,5 +28,5 @@ Feature: Test Cogmento CRM Application
   Scenario: validate home page functionality
     When user is on home page validate home page title as "Cogmento CRM"
     And user validate home page url
-    And user validate home page logo
+    And user validate home logo1
 
