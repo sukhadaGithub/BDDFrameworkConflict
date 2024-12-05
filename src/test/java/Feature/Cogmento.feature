@@ -25,7 +25,8 @@ Feature: Test Cogmento CRM Application
       | ContactInfo |         2 |
     
 
-  Scenario: validate logout service functionality
-    When user click on profile option
-    And user logout option
-    And user close application
+  Scenario: validate home  functionality
+    When user is on home page validate home page title as "Cogmento CRM"
+    And user validate home page url
+    And user validate home logo
+
